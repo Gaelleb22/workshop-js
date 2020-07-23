@@ -12,7 +12,7 @@ var resultat1 = additionner(nombre1, nombre2);
 console.log('resultat1 =', resultat1);
 
 //variable de type fonction
-var somme = (nb1, nb2)=> additionner(nb1, nb2);
+var somme = additionner;
 var resultat2 = somme(nombre1, nombre2);
 console.log('resultat2 =', resultat2);
 
